@@ -3,7 +3,7 @@ import { BookList } from './components/books/BookList/BookList';
 import { Form } from './components/books/Form/Form';
 import { Header } from './components/layout/Header/Header';
 import { Main } from './components/layout/Main/Main';
-import { Button } from './components/UI/AddBookButton/Button';
+import { Button } from './components/UI/Button/Button';
 
 function App() {
   const [formIsShown, setFormIsShown] = useState(false);

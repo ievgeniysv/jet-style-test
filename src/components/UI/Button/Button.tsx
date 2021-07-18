@@ -1,4 +1,4 @@
-import classes from './AddButton.module.css';
+import classes from './Button.module.css';
 
 interface IButton {
   onClick?: () => void;
