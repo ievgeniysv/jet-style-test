@@ -1,0 +1,12 @@
+.add-button {
+  padding: 10px;
+  border-radius: 10px;
+  background: linear-gradient(#d1d1d1, #afafaf);
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.add-button:hover {
+  transform: scale(1.1);
+}

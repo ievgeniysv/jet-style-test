@@ -1,0 +1,55 @@
+.book-card-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: calc(25% - 10px);
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+.book-img {
+  width: 145px;
+  height: 205px;
+}
+
+.author {
+  padding: 5px;
+  font-size: 13px;
+  color: #7d8290;
+}
+
+.book-title {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  font-size: 14px;
+  color: #242424;
+}
+
+.actions-buttons {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 20%;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.actions-buttons:hover {
+  transform: scale(1.1);
+}
+
+.edit {
+  background-image: url('../../../assets/images/edit.svg');
+  left: 20px;
+}
+
+.remove {
+  background-image: url('../../../assets/images/remove.svg');
+  right: 20px;
+}
